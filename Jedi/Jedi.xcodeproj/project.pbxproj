@@ -6,7 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		356A0AE52E5699990022153B /* Local.strings in Resources */ = {isa = PBXBuildFile; fileRef = 356A0AE32E5699990022153B /* Local.strings */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		356A0AE42E5699990022153B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Local.strings; sourceTree = "<group>"; };
+		356A0AE62E5699C80022153B /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Local.strings"; sourceTree = "<group>"; };
 		35831FC52E53FE0500B989EE /* Jedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +51,7 @@
 		35831FBC2E53FE0400B989EE = {
 			isa = PBXGroup;
 			children = (
+				356A0AE32E5699990022153B /* Local.strings */,
 				35831FC72E53FE0500B989EE /* Jedi */,
 				35831FC62E53FE0500B989EE /* Products */,
 			);
@@ -104,6 +111,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 35831FBC2E53FE0400B989EE;
 			minimizedProjectReferenceProxies = 1;
@@ -122,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356A0AE52E5699990022153B /* Local.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +145,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		356A0AE32E5699990022153B /* Local.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356A0AE42E5699990022153B /* en */,
+				356A0AE62E5699C80022153B /* es-419 */,
+			);
+			name = Local.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		35831FCE2E53FE0500B989EE /* Debug */ = {

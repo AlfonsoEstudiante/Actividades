@@ -1,0 +1,10 @@
+/* 
+  Local.strings
+  Jedi
+
+  Created by win603 on 20/08/25.
+  
+*/
+"hello" = "Hola amigo";
+"name" = "Nombre: Alfonso";
+"age" = "Edad: 26";
